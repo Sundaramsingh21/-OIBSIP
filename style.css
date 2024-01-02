@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Merriweather&family=Outfit:wght@500&family=Roboto&family=Rubik:wght@300&family=Ubuntu:wght@500&display=swap');
+
+.min-h-screen {
+    min-height: ;
+}
+
+body {
+    background-color: #fce6e3;
+}
+
+.container {
+    max-width: 95vw;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.font-bold {
+    font-weight: bolder;
+
+}
+
+.my-1 {
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+
+.my-2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.px-2 {
+    padding-left: 14px;
+    padding-right: 13px;
+}
+
+.text-blue {
+    color: rgb(227 74 56);
+}
+
+.btn {
+    padding: 7px 10px;
+    border: 2px solid rgb(227 74 56);
+    border-radius: 6px;
+    cursor: pointer;
+    color: white;
+    box-shadow: 1px 1px 3px black;
+
+    background-color: rgb(227 74 56);
+}
+
+.navbar button:hover {
+    background-color: #f2543f;
+    color: black;
+
+}
+
+header {
+    Position: sticky;
+    top: 0px;
+    background-color: #fce6e3;
+
+}
+
+.text-center {
+    text-align: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    height: 67px;
+
+}
+
+.navbar li {
+    list-style: none;
+    margin: 0 12px;
+    cursor: pointer;
+
+}
+
+.navh:hover {
+    text-decoration: underline rgb(227 74 56) 2px;
+    font-weight: bold;
+
+}
+
+.topleft {
+    width: 50%;
+}
+
+.topright {
+    width: 50%;
+}
+
+.section1 {
+    max-height: 100vh;
+    color: #711e15;
+}
+
+.section1 p {
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+}
+
+.section1 h1 {
+    color: #37110d;
+    font-size: 2.2rem;
+
+}
+
+.section1 button {
+    color: white;
+    width: 100px;
+    padding: 7px 12px;
+    margin: 16px 5px;
+    font-size: 15px;
+    background-color: rgb(227 74 56);
+    border-radius: 7px;
+    border: none;
+    box-shadow: 2px 1px 4px black;
+}
+
+.btn1:hover {
+
+    color: black;
+    border: 1px solid black;
+}
+
+.logo {
+    font-size: 25px;
+
+
+}
+
+.topright .yoga {
+    width: 560px;
+    animation-name: sun1;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+
+
+}
+
+@keyframes sun1 {
+    from {
+        width: 430px;
+    }
+
+    to {
+        width: 560px;
+    }
+}
+
+.section2 h1 {
+    font-size: 2rem;
+}
+
+.section2 p {
+    font-weight: ;
+}
+
+.paragraph {
+    font-size: 12px;
+}
+
+.section2 {
+    padding: 70px;
+
+
+}
+
+.box {
+    padding: 7px 1px;
+    margin: 12px 22px;
+    min-width: 21vw;
+
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 3px 4px 11px black;
+    background-color: #fcd4cf;
+}
+
+.btn2 {
+    padding: 7px 10px;
+    border: 1px solid rgb(227 74 56);
+    border-radius: 6px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(227 74 56);
+    box-shadow: 2px 1px 4px black;
+}
+
+.btn2:hover {
+    color: black;
+    width: 103px;
+}
+
+.box ul {
+    list-style: none;
+}
+
+.box ul li {
+    margin: 12px 2px;
+}
+
+.box h3 {
+
+    color: rgb(227 74 56);
+}
+
+.highlighter {
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+footer {
+    background-color: #141111;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 8px 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer h1 {
+    color: rgb(227 74 56);
+    font-family: 'Outfit', sans-serif;
+    font-size: 40px;
+}
+
+.content {
+    padding: 20px;
+
+}
