@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body {
+    background-color: rgb(2, 2, 31);
+    font-family: 'Poppins', sans-serif;
+    color: white;
+
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: sticky;
+    top: 0px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+    background-color: rgb(37, 37, 185);
+
+
+}
+
+.navb:hover {
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0px 25px;
+}
+
+nav ul li a {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(42, 42, 46);
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.left {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-left: 60px;
+}
+
+.section1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 120px 0px;
+
+}
+
+.section1>div {
+    width: 30%;
+}
+
+.leftsection1 {
+
+    font-size: 2.8rem;
+    align-items: center;
+    margin: 83px 1px;
+}
+
+.font-col {
+    color: rgb(88, 88, 240);
+    font-weight: bold;
+}
+
+#element {
+    color: rgb(95, 95, 241);
+
+}
+
+.rightsection1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightsection1 img {
+    width: 85%;
+   z-index: -1;
+    animation-name: plus;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    
+    
+
+}
+
+@keyframes plus{
+    0%,100%{transform: scale(1);}
+    50%{transform: scale(1.2);}
+}
+
+.leftsection1 a {
+    border-radius: 8px;
+    font-size: 15px;
+    padding: 15px 15px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(37, 37, 185);
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn1:hover {
+    color: black;
+    padding: 12px 12px;
+    cursor: pointer;
+}
+
+.section2 {
+    padding: 40px;
+
+
+}
+.section2 h1 {
+    display: flex;
+    font-size: 40px;
+    margin: 10px auto;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    min-width: 20vw;
+    justify-content: center;
+    
+}
+.box{
+    border: 2px solid rgb(45, 94, 117);
+    padding: 20px 1px;
+    margin: 50px 22px;
+    min-width: 21vw;
+    text-align: center;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 5px 4px 12px rgb(45, 94, 117);
+    transition: all 0.3s ease-in-out;
+}
+.box:hover{
+    transform: scale(1.12);
+    
+}
+.text{
+    list-style: none;
+}
+.box h3{
+    margin-bottom: 10px;
+    color: rgb(168, 125, 211);
+}
+.box ul li{
+    margin: 6px 0px;
+}
+.btnbox{
+    width: 113px;
+    height: 36px;
+    padding: 6px 5px;
+    margin: 15px 0px;
+    border-radius: 8px;
+    border: 0.3px solid white;
+    background-color:  rgb(37, 37, 185);
+    color: white;
+}
+.btnbox:hover{
+    color: black;
+    border: 0.3px solid black;
+    cursor: pointer;
+
+}
+footer{
+    
+    background-color: rgb(0, 0, 7);
+}
+.footer{
+    display: flex;
+    padding: 25px 140px;
+    justify-content: center;
+}
+.secondf{
+    margin: 3px 20px;
+    
+}
+.footer ul{
+    list-style: none;
+    
+}
+.centerf{
+    text-align: center;
+    padding: 20px 1px;
+}
+.link{
+    color: rgb(184, 177, 241);
+    text-decoration: none;
+    font-size: 20px;
+}
+.link:hover{
+    color:beige;
+    text-decoration: underline 2px rgb(71, 33, 236);
+}
+
+.footer > div{
+    width: 220px;
+}
+footer .bottomf{
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: gray;
+    text-align: center;
+}
